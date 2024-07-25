@@ -1,0 +1,47 @@
+/* Universal CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* CSS Pre- Test */
+.listHuruf {
+  list-style-type: upper-alpha;
+  color: #092b55;
+}
+
+.headerPreTest {
+  background: #4c93ff;
+  height: 60px;
+}
+
+.judulPreTest {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3d73c5;
+}
+
+.nomerPreTest {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #4c93ff;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.soalPreTest {
+    color: #092755;
+}
+
+.jawabanBenar {
+    background: #07de1d;
+}
