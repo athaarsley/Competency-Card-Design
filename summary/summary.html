@@ -22,51 +22,94 @@
     ></script>
   </head>
   <body>
-    <div class="headerPreTest bg-primary text-decoration-none px-3 py-2 text-white mb-2 d-flex justify-content-between align-items-center gap-2">
-        <div class="d-flex align-items-center gap-2">
-            <img src="/assets/logo_laki.png" alt="Logo" width="40px" />
-            <p class="m-0"> 10014390 / Estate 1</p>
-        </div>
-        <a href="#" class="text-white"><i class="fa-solid fa-xmark fa-xl"></i></a>
+    <div
+      class="headerPreTest bg-primary text-decoration-none px-3 py-2 text-white mb-2 d-flex justify-content-between align-items-center gap-2"
+    >
+      <div class="d-flex align-items-center gap-2">
+        <img src="/assets/logo.png" alt="Logo" width="40px" class="rounded"/>
+        <p class="m-0">10031309 / Training Center</p>
+      </div>
+      <a href="#" class="text-white"><i class="fa-solid fa-bars fa-xl"></i></a>
     </div>
-    <div class="d-flex flex-column" style="height: 100vh;">
-        <div class="p-2">
-            <div>Program Uji Kompetensi Irigasi Tahap 1</div>
-            <img src="assets/irrigation_image.jpg" alt="Irrigation" width="100%" />
+
+    <section class="mx-3">
+      <div class="d-flex gap-2 align-items-center justify-content-around">
+        <p class="m-0 text-header">Program Uji Kompetensi Irigasi Tahap 1</p>
+        <img
+          src="/assets/gambar_tanpa_love.png"
+          alt="gambar"
+          class="image-header"
+        />
+      </div>
+    </section>
+
+    <div class="mt-3 bg-secondary bg-opacity-50 w-100">
+      <p class="m-0 mx-3 pt-3 fw-bold fs-5">Summary</p>
+      <div class="d-flex justify-content-around align-items-center py-3">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center gap-3"
+        >
+          <div
+            class="bg-primary d-flex justify-content-center align-items-center text-white"
+            style="width: 70px; height: 70px; border-radius: 50%"
+          >
+            <h5 class="m-0">150</h5>
+          </div>
+          <p class="m-0 fw-semibold">Peserta</p>
         </div>
-        <div class="p-2 d-flex justify-content-around align-items-center" style="background-color: #d3d3d3;">
-            <div class="text-center">
-                <div style="font-size: 2em;">150</div>
-                <div>Peserta</div>
-            </div>
-            <div class="text-center" style="background-color: #d3ff00; border-radius: 50%; width: 70px; height: 70px; display: flex; justify-content: center; align-items: center;">
-                <div>70%</div>
-                <div>Competent</div>
-            </div>
-            <div class="text-center" style="background-color: #ff007f; border-radius: 50%; width: 70px; height: 70px; display: flex; justify-content: center; align-items: center;">
-                <div>30%</div>
-                <div>Not Competent</div>
-            </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center gap-3"
+        >
+          <div
+            class="bg-warning d-flex justify-content-center align-items-center text-white"
+            style="width: 70px; height: 70px; border-radius: 50%"
+          >
+            <h5 class="m-0 text-dark">70%</h5>
+          </div>
+          <p class="m-0 fw-semibold">Kompeten</p>
         </div>
-        <div class="p-2" style="background-color: #d3ff00;">
-            <div>Competent Distribution Per Function</div>
-            <div class="d-flex justify-content-around align-items-end" style="height: 100px;">
-                <div style="width: 20%; height: 30%; background-color: white;"></div>
-                <div style="width: 20%; height: 50%; background-color: white;"></div>
-                <div style="width: 20%; height: 70%; background-color: white;"></div>
-            </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center gap-3"
+        >
+          <div
+            class="bg-danger d-flex justify-content-center align-items-center text-white"
+            style="width: 70px; height: 70px; border-radius: 50%"
+          >
+            <h5 class="m-0">30%</h5>
+          </div>
+          <p class="m-0 fw-semibold">Belum</p>
         </div>
-        <div class="p-2 flex-grow-1" style="background-color: #ff007f;">
-            <div>Not Competent Distribution Per Function</div>
-            <div class="d-flex justify-content-around align-items-end" style="height: 100px;">
-                <div style="width: 20%; height: 30%; background-color: white;"></div>
-                <div style="width: 20%; height: 50%; background-color: white;"></div>
-                <div style="width: 20%; height: 70%; background-color: white;"></div>
-            </div>
-        </div>
+      </div>
     </div>
+
+    <div class="bg-warning">
+      <div
+        class="d-flex justify-content-around align-items-center gap-2 mx-3 py-3"
+      >
+        <p class="m-0 fw-bold">Competent Distribution Per Function</p>
+        <i
+          class="fa-solid fa-chart-simple text-white"
+          style="font-size: 124px"
+        ></i>
+      </div>
+    </div>
+
+    <div class="bg-danger" style="margin-bottom: 50px">
+      <div
+        class="d-flex flex-row-reverse justify-content-around align-items-center gap-2 mx-3 py-3"
+      >
+        <p class="m-0 fw-bold text-end text-white">
+          Not Competent Distribution Per Function
+        </p>
+        <i
+          class="fa-solid fa-chart-simple text-white"
+          style="font-size: 124px"
+        ></i>
+      </div>
+    </div>
+
     <nav
-      class="nav bg-primary w-100 p-2 position-fixed bottom-0 border-top border-2"
+      class="nav bg-primary w-100 p-2 position-fixed bottom-0 border-top border-primary"
     >
       <div class="d-flex justify-content-around w-100">
         <a
@@ -79,18 +122,18 @@
         </a>
 
         <a
-          href="transaksi.html"
+          href="#"
           class="bag d-flex flex-column justify-content-center align-items-center text-decoration-none gap-2"
         >
-          <i class="fa-solid fa-heart" style="color: #000000"></i>
+          <i class="fa-solid fa-heart text-dark"></i>
           <p class="m-0" style="font-size: 12px; color: black">Like</p>
         </a>
 
         <a
-          href="pembelihan.html"
+          href="#"
           class="wallet d-flex flex-column justify-content-center align-items-center text-decoration-none gap-2"
         >
-          <i class="fa-solid fa-sliders" style="color: #000000"></i>
+          <i class="fa-solid fa-sliders text-dark"></i>
           <p class="m-0" style="font-size: 12px; color: black">Filter</p>
         </a>
       </div>
