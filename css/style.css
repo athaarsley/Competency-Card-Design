@@ -1,8 +1,28 @@
 /* Universal CSS */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.bungkusan {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.text-header {
+  font-size: 10px;
+}
+
+.text {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.gambar {
+  width: 100%;
+  height: 40%;
 }
 
 /* CSS Pre- Test */
@@ -39,9 +59,30 @@
 }
 
 .soalPreTest {
-    color: #092755;
+  color: #092755;
 }
 
 .jawabanBenar {
-    background: #07de1d;
+  background: #07de1d;
+}
+
+/* CSS Summary */
+.image-header {
+  width: 50%;
+  height: auto;
+}
+
+.text-header {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 765px) {
+  .image-header {
+    width: 25%;
+  }
+
+  .text-header{
+    font-size: 24px;
+  }
 }

@@ -16,6 +16,38 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/87dd173a0d.js" crossorigin="anonymous"></script>
+    <style>
+    body {
+        background-color: #f7f7f7;
+    }
+    .card-container {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .card img {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+    }
+    .card .badge {
+        background-color: #ff4d4d;
+        color: white;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        margin-left: 10px;
+    }
+    </style>    
 </head>
 <body class="d-flex flex-column vh-100"> 
     <header class="bg-primary text-white p-2 d-flex justify-content-end" style="background-color: #4c93ff;">
@@ -37,8 +69,8 @@
             </div>
         </div>
 
-        <div class="d-flex flex-column align-items-center w-100 text-center">
-            <div class="d-flex justify-content-start align-items-center border p-2 mb-0 w-100">
+        <div class="card-container d-flex flex-column align-items-start w-100 text-start mb-2">
+            <div class=" d-flex justify-content-start align-items-center mb-0 w-100">
                 <div>
                     <i class="fa-solid fa-user m-3 fa-2x"></i>
                 </div>
@@ -47,42 +79,36 @@
                     <small class="text-muted">Kompetensi 1</small>
                 </div>
             </div>
-            <div class="d-flex justify-content-start border p-2 mb-2 w-100">
-                <div class="row">
-                    <div class="col-12 d-flex align-items-center justify-content-start mx-3 text-success">
-                        <i class="fa-solid fa-bell me-2 mt-1"></i>
-                        <p class="mb-0 fw-bold">Competent</p>
-                    </div>
-                </div>
+            <div class="d-flex align-items-center justify-content-start mx-3 text-success">
+                <i class="fa-solid fa-bell me-2 mt-1"></i>
+                <p class="mb-0 fw-bold">Not Competent</p>
             </div>
-            <div class="d-flex justify-content-start align-items-center border p-2 mb-0 w-100">
+        </div>
+
+        <div class="card-container d-flex flex-column align-items-start w-100 text-start">
+            <div class=" d-flex justify-content-start align-items-center mb-0 w-100">
                 <div>
                     <i class="fa-solid fa-user m-3 fa-2x"></i>
                 </div>
                 <div class="d-flex flex-column align-items-start">
-                    <h4 class="mb-0 fw-bold">Operator Irrigator</h4>
-                    <small class="text-muted">Kompetensi 2</small>
+                    <h4 class="mb-0 fw-bold">Operator Engine Irrigator</h4>
+                    <small class="text-muted">Kompetensi 1</small>
                 </div>
             </div>
-            <div class="d-flex justify-content-start border p-2 mb-2 w-100">
-                <div class="row">
-                    <div class="col-12 d-flex align-items-center justify-content-start mx-3 text-danger">
-                        <i class="fa-solid fa-bell me-2 mt-1"></i>
-                        <p class="mb-0 fw-bold">Not Competent</p>
-                    </div>
-                </div>
+            <div class="d-flex align-items-center justify-content-start mx-3 text-danger">
+                <i class="fa-solid fa-bell me-2 mt-1"></i>
+                <p class="mb-0 fw-bold">Not Competent</p>
             </div>
         </div>
-
     </div>
 
-    <footer class="bg-light py-4">
+    <footer class="bg-primary py-4">
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex align-items-center justify-content-start mx-3">
-                    <button type="button" class="btn btn-dark m-3">Back</button>
-                    <i class="fa-solid fa-home me-2"></i>
-                    <p class="mb-0 fw-bold">Home</p>
+                    <button type="button" class="btn btn-dark me-3">back</button>
+                    <i class="fa-solid fa-home me-2 text-white"></i> <!-- Added text-white class -->
+                    <p class="mb-0 fw-bold text-white">Setting</p>
                 </div>
             </div>
         </div>
