@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bungkusan {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.text-header {
+  font-size: 10px;
+}
+
+.text {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.gambar {
+  width: 100%;
+  height: 40%;
+}
