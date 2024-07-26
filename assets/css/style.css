@@ -4,10 +4,17 @@
   box-sizing: border-box;
 }
 
+main {
+  margin-bottom: 60px;
+}
+
 .bungkusan {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  width: 100%;
+  height: 60px;
+  z-index: 9999;
 }
 
 .text-header {
@@ -15,11 +22,15 @@
 }
 
 .text {
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 5px;
 }
 
 .gambar {
   width: 100%;
-  height: 40%;
+  height: 450px;
+}
+
+.search-box {
+  margin-top: 80px;
 }
