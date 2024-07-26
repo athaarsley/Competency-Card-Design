@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percentage Bar Chart Example</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/87dd173a0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="headerPreTest bg-primary text-decoration-none px-3 py-2 text-white mb-2 d-flex justify-content-between align-items-center gap-2">
+        <div class="d-flex align-items-center gap-2">
+            <img src="/assets/logo_laki.png" alt="Logo" width="40px" />
+            <p class="m-0"> 10014390 / Estate 1</p>
+        </div>
+        <a href="#" class="text-white"><i class="fa-solid fa-xmark fa-xl"></i></a>
+    </div>
+    <div class="d-flex flex-column" style="height: 100vh;">
+        <div class="p-2">
+            <div>Program Uji Kompetensi Irigasi Tahap 1</div>
+            <img src="assets/irrigation_image.jpg" alt="Irrigation" width="100%" />
+        </div>
+        <div class="p-2 d-flex justify-content-around align-items-center" style="background-color: #d3d3d3;">
+            <div class="text-center">
+                <div style="font-size: 2em;">150</div>
+                <div>Peserta</div>
+            </div>
+            <div class="text-center" style="background-color: #d3ff00; border-radius: 50%; width: 70px; height: 70px; display: flex; justify-content: center; align-items: center;">
+                <div>70%</div>
+                <div>Competent</div>
+            </div>
+            <div class="text-center" style="background-color: #ff007f; border-radius: 50%; width: 70px; height: 70px; display: flex; justify-content: center; align-items: center;">
+                <div>30%</div>
+                <div>Not Competent</div>
+            </div>
+        </div>
+        <div class="p-2" style="background-color: #d3ff00;">
+            <div>Competent Distribution Per Function</div>
+            <div class="d-flex justify-content-around align-items-end" style="height: 100px;">
+                <div style="width: 20%; height: 30%; background-color: white;"></div>
+                <div style="width: 20%; height: 50%; background-color: white;"></div>
+                <div style="width: 20%; height: 70%; background-color: white;"></div>
+            </div>
+        </div>
+        <div class="p-2 flex-grow-1" style="background-color: #ff007f;">
+            <div>Not Competent Distribution Per Function</div>
+            <div class="d-flex justify-content-around align-items-end" style="height: 100px;">
+                <div style="width: 20%; height: 30%; background-color: white;"></div>
+                <div style="width: 20%; height: 50%; background-color: white;"></div>
+                <div style="width: 20%; height: 70%; background-color: white;"></div>
+            </div>
+        </div>
+    </div>
+    <nav
+      class="nav bg-primary w-100 p-2 position-fixed bottom-0 border-top border-2"
+    >
+      <div class="d-flex justify-content-around w-100">
+        <a
+          href="/"
+          class="book d-flex flex-column justify-content-center align-items-center text-decoration-none gap-2"
+          style="color: white"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <p class="m-0" style="font-size: 12px">Search</p>
+        </a>
+
+        <a
+          href="transaksi.html"
+          class="bag d-flex flex-column justify-content-center align-items-center text-decoration-none gap-2"
+        >
+          <i class="fa-solid fa-heart" style="color: #000000"></i>
+          <p class="m-0" style="font-size: 12px; color: black">Like</p>
+        </a>
+
+        <a
+          href="pembelihan.html"
+          class="wallet d-flex flex-column justify-content-center align-items-center text-decoration-none gap-2"
+        >
+          <i class="fa-solid fa-sliders" style="color: #000000"></i>
+          <p class="m-0" style="font-size: 12px; color: black">Filter</p>
+        </a>
+      </div>
+    </nav>
+  </body>
+</html>
